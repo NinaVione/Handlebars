@@ -1,0 +1,49 @@
+.book-shelf--title,
+.book-shelf--wrap {
+  padding: 0 110px;
+  background-color: #fcfcfc;
+}
+
+.book-shelf--title {
+  margin-bottom: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #464547;
+}
+
+.book {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.book:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.book-wrap {
+  box-shadow: 0 0 10px #eee;
+}
+
+.book-picture {
+  width: 300px;
+}
+
+.book-info {
+  width: 500px;
+  color: #666;
+}
+
+.book-info--name {
+  text-transform: uppercase;
+  color: #464547;
+}
+
+.book-info--description {
+  font-style: italic;
+}
+
+.book-info--data {
+  font-size: 12px;
+  text-transform: uppercase;
+}
